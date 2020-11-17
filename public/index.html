@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<SCRIPT language="JavaScript">
+			var password;
+			var passanswer="next";
+			
+			password=prompt('Skriv koden, for at se denne side!',' ');
+			
+			if (password==passanswer)
+			  alert('Kode korrekt! Tryk enter for at komme videre!');
+			else
+			   {
+				window.location="https://www.google.dk/?hl=da";
+				}
+			
+			//-->
+			</SCRIPT>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		 <link 
+		 rel="stylesheet"
+		 href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		 />
+		 <script 
+		 src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+		 ></script>
+		<title>STG Chat</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i class="far fa-comment"></i> Sukkertoppen Chat</h1>
+			</header> 
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Dit navn</label>
+						<div class="input-field col s6">
+							<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Skriv et navn..."
+							required
+						/>
+        </div>
+					</div>
+					<div class="input-field col s12">
+					<div class="form-control">
+						<label for="room">Klasse</label>
+						<select name="room" id="room">
+							<option value="2.o">2.o</option>
+							<option value="2.m">2.m</option>
+							<option value="2.n">2.n</option>
+							<option value="1g taber klasse">1g taber klasse</option>
+							<option value="Lærerer">Lærerer</option>
+							<option value="FFA">FFA</option>
+						</select>
+					</div>
+				</div>
+					<button type="submit" class="btn">Tilsut rum</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
