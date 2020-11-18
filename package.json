@@ -11,10 +11,18 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+    "nodemon": "^2.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agdal/agdal.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agdal/agdal.github.io/issues"
+  },
+  "homepage": "https://github.com/agdal/agdal.github.io#readme"
 }
