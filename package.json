@@ -1,13 +1,13 @@
 {
-  "name": "chatcord",
+  "name": "agdal.github.io",
   "version": "1.0.0",
-  "description": "Realtime chat app with rooms",
+  "description": "chatapp",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
+  "author": "error",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
